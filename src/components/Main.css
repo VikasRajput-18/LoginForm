@@ -1,0 +1,24 @@
+.login-section{
+    width: 550px;
+
+}
+.login-page{
+   width: 70%;
+}
+
+.image-section{
+    width: 55%;
+}
+
+@media screen and (max-width : 983px ) {
+ .image-section{
+    display: none;
+ }   
+ .login-section {
+     width: 100vw;
+     height: 90vh;
+ }
+ .login-page{
+    width: 90%;
+ }
+}
